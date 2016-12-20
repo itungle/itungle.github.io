@@ -1,4 +1,7 @@
 html, body { height: 100%; }
-body { padding-top:70px; background-color:white;}
-.header-msg-box {width: 50%; height: 500px; text-align:center; }
-.top-padding {padding-top: 20px;}
+body {background-color:white; }
+#home-page { background:rgba(#b0b0b0); height: 100vh; background-image:url(../images/asanoha-400px.png); }
+.header-msg-box { width: 50%; height: 500px; text-align:center; }
+.top-padding { padding-top: 100px; }
+.icon-bar { background-color:#337ab7 !important; }
+.icon-padding {padding: 50px;}
