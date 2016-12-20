@@ -1,0 +1,4 @@
+html, body { height: 100%; }
+body { padding-top:70px; background-color:white;}
+.header-msg-box {width: 50%; height: 500px; text-align:center; }
+.top-padding {padding-top: 20px;}
