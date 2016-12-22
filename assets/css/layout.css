@@ -1,7 +1,66 @@
-html, body { height: 100%; }
-body {background-color:white; }
-#home-page { background:rgba(#b0b0b0); height: 100vh; background-image:url(../images/asanoha-400px.png); }
-.header-msg-box { width: 50%; height: 500px; text-align:center; }
-.top-padding { padding-top: 100px; }
-.icon-bar { background-color:#337ab7 !important; }
-.icon-padding {padding: 50px;}
+
+html, body {
+  height: 100%;
+}
+body {
+  background-color: white;
+
+}
+#home-page {
+  background-image: url(../images/asanoha-400px.png);
+  background: rgba(#b0b0b0);
+  color: white;
+  height: 100vh;
+
+}
+.inherit-dimension {
+  height: inherit;
+  width: inherit;
+}
+.header-msg-box {
+  width: 35%;
+  /*background: rgba(50, 50, 50, 0.6);*/
+  text-align: center;
+
+}
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-box-align : center;
+  -webkit-align-items : center;
+  -moz-box-align : center;
+  -ms-flex-align : center;
+  align-items : center;
+  -webkit-box-pack : center;
+  -moz-box-pack : center;
+  -ms-flex-pack : center;
+  -webkit-justify-content : center;
+  justify-content : center;
+}
+
+h1 {
+  background: rgba(50, 50, 50, 0.5);
+  border-radius: 10px;
+  margin-top:0 !important;
+}
+h2 {
+  background: rgba(50, 50, 50, 0.5);
+  border-radius: 10px;
+}
+.icon-padding {
+  padding: 10px;
+}
+.icon-bar {
+  background-color: #337ab7 !important;
+}
+#about {
+  background-image: url(../images/black_thread.png);
+  height: 100vh;
+  color: white;
+}
