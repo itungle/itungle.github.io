@@ -15,7 +15,7 @@
 
   <body>
     <div class="home-navigation">
-      <nav class="navbar navbar-inverse navbar-fixed-top navbar-inner">
+      <nav class="navbar navbar-fixed-top navbar-inner">
         <div class="container">
           <!-- logo and collapasable button -->
           <div class="navbar-header">
@@ -25,15 +25,15 @@
               <span class="icon-bar middle-bar"></span>
               <span class="icon-bar bottom-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><b>TUNG PHUOC LE</b></a>
+            <a class="navbar-brand" href="#home-page"><b>TUNG PHUOC LE</b></a>
           </div>
           <!-- home navigation -->
           <div id="home-nav-li" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Resume</a></li>
-              <li><a href="#">Contact Me</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <!--<li><a href="#">Resume</a></li>-->
+              <li><a href="#contact">Contact Me</a></li>
             </ul>
           </div>
         </div>
@@ -41,10 +41,10 @@
     </div>
 
     <section id="home-page">
-      <div class="container-fluid home-page inherit-dimension">
-        <div class="row inherit-dimension vertical-center">
-          <div class="header-msg-box">
-            <h1>Hello World!</h1>
+      <div class="container">
+        <div class="row vertical-center">
+          <div class="content-box">
+            <h2>Hello World!</h2>
             <h2>I'm Tung</h2>
             <h2>I live</h2>
             <h2>I learn</h2>
@@ -52,7 +52,7 @@
             <h2>I code</h2>
             <h2>I eat</h2>
             <h2>I travel</h2>
-            <!-- two icons in the middle -->
+            <!-- two icons in the middle
             <div class="row icon-padding">
               <div class="col-md-6">
                 <a href="https://github.com/itungle" class="undecorated-link" target="_blank">
@@ -65,31 +65,57 @@
                  </a>
               </div>
             </div>
+          -->
           </div>
         </div>
       </div>
     </section>
     <section id="about">
-      <!--
       <div class="container">
-        <div class="row">
-          <div class="center-block">
-            <h2>About TUNG</h2>
+        <div class="row vertical-center">
+          <div class="flex-item">
+            <div class="flex-row-container">
+              <div class="flex-item icon-padding">
+                <h1>About</h1>
+              </div>
+              <div class="flex-item">
+                <div class="outter-bg circle-bg">
+                    <img class="inner-bg circle-bg" src="assets/images/self_image2.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex-item introduction">
             <p>
-              Hi, my name is Tung
+              My name is Tung Le. I am a software developer and a full-stack web developer. I love to build products 
             </p>
           </div>
         </div>
       </div>
-    -->
     </section>
     <section id="projects">
+      <div class="container">
+        <div class="row vertical-center">
+          <div class="flex-item header-box">
+            <h1>Projects</h1>
+          </div>
+          <div class="flex-item" style="height:70vh;">
+            <div class="row">
+              <div class="col-md-4 " style="background:red;">
+                <h3>REDDIT Scraper</h3>
+              </div>
+              <div class="col-md-8" style="background:blue;">
+                <h4>Java, MySQL</h4>
+                <h5>Libraries used: jSoup, JDBC</h5>
+                <p>Created </p>
+              </div>
+            </div>
+          </div>
 
+        </div>
+      </div>
     </section>
-    <section id="resume">
-
-    </section>
-    <section id="contact-form">
+    <section id="contact">
 
     </section>
 
