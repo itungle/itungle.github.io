@@ -5,12 +5,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
     <title>Tung Le</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/layout.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="libs/css/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="libs/css/font-awesome-4.7.0/css/font-awesome.css">
-    <script type="text/javascript" src="libs/scripts/jquery-3.1.1.min.js">
-    </script>
-    <script type="text/javascript" src="libs/scripts/bootstrap.min.js"> </script>
+    <link rel="stylesheet" type="text/css" href="assets/css/layout.css"/>
   </head>
 
   <body>
@@ -39,86 +37,50 @@
         </div>
       </nav>
     </div>
-
-    <section id="home-page">
+    <section class="home-page">
       <div class="container">
-        <div class="row vertical-center">
-          <div class="content-box">
-            <h2>Hello World!</h2>
-            <h2>I'm Tung</h2>
-            <h2>I live</h2>
-            <h2>I learn</h2>
-            <h2>I apply</h2>
-            <h2>I code</h2>
-            <h2>I eat</h2>
-            <h2>I travel</h2>
-            <!-- two icons in the middle
-            <div class="row icon-padding">
-              <div class="col-md-6">
+        <div class="flex-row-container">
+          <div class="jumbotron welcome-msg-box">
+            <h1>Hello World!<br />
+            I'm Tung Le</h1>
+            <h3 class="pink-border-bottom">Problem Solver & Life-Long Learner</h3>
+          </div>
+          <div class="jumbotron social-icons-box">
+            <!-- <textarea name="typingArea" rows="1" cols="40"></textarea> -->
+            <div class="row">
+              <div class="col-md-4 col-md-offset-2 align-text-center">
                 <a href="https://github.com/itungle" class="undecorated-link" target="_blank">
                    <span class="fa fa-github fa-3x"></span>
                  </a>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-2">
                 <a href="https://www.linkedin.com/in/tung-le-5b8704119" class="undecorated-link" target="_blank">
                    <span class="fa fa-linkedin fa-3x"></span>
                  </a>
               </div>
             </div>
-          -->
           </div>
         </div>
       </div>
     </section>
-    <section id="about">
+    <section class="about-page">
       <div class="container">
-        <div class="row vertical-center">
-          <div class="flex-item">
-            <div class="flex-row-container">
-              <div class="flex-item icon-padding">
-                <h1>About</h1>
-              </div>
-              <div class="flex-item">
-                <div class="outter-bg circle-bg">
-                    <img class="inner-bg circle-bg" src="assets/images/self_image2.jpg" />
-                </div>
-              </div>
-            </div>
+        <div class="row flex-row-container">
+          <div class="left-column">
+
           </div>
-          <div class="flex-item introduction">
-            <p>
-              My name is Tung Le. I am a software developer and a full-stack web developer. I love to build products 
-            </p>
+          <div class="outter-circle middle-column">
+            <img alt="self_image" class="inner-circle" src="assets/images/self_image2.jpg"/>
           </div>
-        </div>
-      </div>
-    </section>
-    <section id="projects">
-      <div class="container">
-        <div class="row vertical-center">
-          <div class="flex-item header-box">
-            <h1>Projects</h1>
-          </div>
-          <div class="flex-item" style="height:70vh;">
-            <div class="row">
-              <div class="col-md-4 " style="background:red;">
-                <h3>REDDIT Scraper</h3>
-              </div>
-              <div class="col-md-8" style="background:blue;">
-                <h4>Java, MySQL</h4>
-                <h5>Libraries used: jSoup, JDBC</h5>
-                <p>Created </p>
-              </div>
-            </div>
+          <div class="right-column">
+
           </div>
 
         </div>
       </div>
     </section>
-    <section id="contact">
-
-    </section>
-
-
+    <script type="text/javascript" src="libs/scripts/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="libs/scripts/bootstrap.min.js"> </script>
+    <script type="text/javascript" src="assets/scripts/index.js"></script>
   </body>
 </html>
