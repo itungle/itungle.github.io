@@ -1,4 +1,5 @@
 
+
 html, body {
   height: 100%;
 }
@@ -6,25 +7,29 @@ body {
   font-family: 'Slabo 27px', serif;
   background-color: #FFFFFF;
 }
-.navbar {
+.navbar-nav > li > a{
   font-size: 20px;
+  color: #327bb8 !important;
+}
+.navbar-nav > li > a:hover {
+  background-color: #e6e6e6 !important;
 }
 .navbar-brand {
+  color: #327bb8 !important;
   font-size: 30px;
+}
+.navbar-brand:hover {
+  background-color: #e6e6e6 !important;
 }
 .home-page {
   background-image: url(../images/dark_wall.png);
-  height: 100vh;
 }
 .about-page {
   background-image: url(../images/white_wall.png);
-  height: 100vh;
   text-align:center;
 }
-.about-page > .container {
-  padding: 100px 150px;
-}
-.jumbotron {
+
+.color-blue {
   color: #327bb8;
 }
 .jumbotron p {
@@ -57,7 +62,6 @@ body {
   -ms-flex-pack : center;
   -webkit-justify-content : center;
   justify-content : center;
-  flex-wrap: wrap;
 }
 
 .flex-row-container {
@@ -82,12 +86,20 @@ body {
   min-height: 100%;
   min-height: 100vh;
 }
+.vertical-padding {
+  padding-top: 20px;
+}
+.content-padding {
+  margin: 5% 10%;
+}
+.inline-block {
+  display: inline-block;
+}
 textarea {
   resize: none;
 }
 .icon-label {
   font-size:10px;
-  margin-bottom: 0px;
 }
 
 .inner-circle {
@@ -97,15 +109,4 @@ textarea {
 }
 .pink-border-bottom {
   border-bottom: 1px solid #e9b2db;
-}
-.left-column {
-  text-align: left;
-  float: left;
-  padding: 20px 30px;
-}
-.column-right {
-  background: #e0e0e0;
-  padding: 0 50px 0 50px;
-  margin: 0 0 0 50px;
-  text-align: left;
 }

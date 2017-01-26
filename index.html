@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
     <title>Tung Le</title>
-    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="libs/css/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="libs/css/font-awesome-4.7.0/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/layout.css"/>
   </head>
 
   <body>
-    <div class="home-navigation">
-      <nav class="navbar navbar-fixed-top navbar-inner">
+    <div class="home-navigation color-blue">
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <!-- logo and collapasable button -->
-          <div class="navbar-header">
+          <div class="navbar-header color-blue">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#home-nav-li" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar top-bar"></span>
@@ -26,12 +27,12 @@
             <a class="navbar-brand" href="#home-page"><b>TUNG PHUOC LE</b></a>
           </div>
           <!-- home navigation -->
-          <div id="home-nav-li" class="collapse navbar-collapse">
+          <div id="home-nav-li" class="color-blue collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#about">About</a></li>
-              <li><a href="#projects">Projects</a></li>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#projects">PROJECTS</a></li>
               <!--<li><a href="#">Resume</a></li>-->
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="#contact">CONTACT</a></li>
             </ul>
           </div>
         </div>
@@ -40,7 +41,7 @@
     <section class="home-page">
       <div class="container">
         <div class="flex-col-container full-height">
-          <div class="jumbotron welcome-msg-box">
+          <div class="color-blue jumbotron text-center">
             <h1>Hello World!<br />
             I'm Tung Le</h1>
             <h3 class="pink-border-bottom">Problem Solver & Life-Long Learner</h3>
@@ -48,13 +49,13 @@
           <div class="jumbotron text-center social-icons-box">
             <!-- <textarea name="typingArea" rows="1" cols="40"></textarea> -->
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-xs-6">
                 <a href="https://www.github.com/itungle" class="undecorated-link" target="_blank">
                     <i class="fa fa-github fa-3x"></i>
                     <p class="icon-label">Github</p>
                 </a>
               </div>
-              <div class="col-md-6">
+              <div class="col-xs-6">
                 <a href="https://www.linkedin.com/in/tung-le-5b8704119" class="undecorated-link" target="_blank">
                     <i class="fa fa-linkedin fa-3x"></i>
                     <p class="icon-label">LinkedIn</p>
@@ -67,33 +68,39 @@
     </section>
     <section class="about-page">
       <div class="container">
-        <div class="row text-center ">
-          <h1>Software Developer & Web Developer</h1>
-        </div>
-        <div class="row">
-          <div class="col-md-4 left-column">
-            <!-- <p>
-              <b>Full Name:</b> Tung Phuoc Le</br>
-              <b>University:</b> University of California, Irvine</br>
-              <b>Graduation:</b> June 2016</br>
-              <b>Major:</b> Computer Science</br>
-              <b></b>
-            </p> -->
+        <div class="content-padding">
+          <div class="text-center">
+            <h1>About Tung</h1>
+            <h3 class="pink-border-bottom">Software Developer & Web Developer</h3>
           </div>
-          <div class="col-md-4 text-center middle-column">
-            <img alt="self_image" class="inner-circle" src="assets/images/self_image2.jpg"/>
-          </div>
-          <div class="col-md-4 right-column">
+          <div class="row vertical-padding">
+            <div class="col-sm-5 flex-col-container text-center">
+              <img alt="self_image" class="inner-circle" src="assets/images/self_image2.jpg"/>
 
+              <h4 class="text-left">Full name: <b>Tung Phuoc Le</b></h4>
+              <h4 class="text-left">Age: <b>23</b></h4>
+              <h4 class="text-left">Current Location: <b>Orange County, California</b></h4>
+            </div>
+            <!-- <div class="col-md-6 text-center middle-column">
+              <img alt="self_image" class="inner-circle" src="assets/images/self_image2.jpg"/>
+            </div> -->
+            <div class="col-sm-6 text-left">
+              <h2>Professional</h2>
+              <p>
+                I am a software and web developer. I am web development intern at Georg Fischer LLC. I am proficient in <b>Java</b>, <b>HTML</b>, <b>CSS</b>, <b>Javascript</b>, <b>MySQL</b>, and <b>PHP</b>; I continue my quest to master these languages. To add into my programming languages arsenal, I am reviewing Python and C++ while learning ReactJS and NodeJS
+              </p>
+              <h2>Personal</h2>
+              <p>
+                I was born in Da Nang, Viet Nam and immigrated to Orange County, California in 2005. I graduated from University of California, Irvine with a Bachelor of Science degree in Computer Science in June, 2016.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          
         </div>
       </div>
     </section>
-    <script type="text/javascript" src="libs/scripts/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="libs/scripts/bootstrap.min.js"> </script>
+
+    <script type="text/javascript" src="assets/scripts/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"> </script>
     <script type="text/javascript" src="assets/scripts/index.js"></script>
   </body>
 </html>
