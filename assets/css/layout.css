@@ -21,16 +21,19 @@ body {
 .navbar-brand:hover {
   background-color: #e6e6e6 !important;
 }
-.home-page {
+.dark-page {
   background-image: url(../images/dark_wall.png);
 }
-.about-page {
+.light-page {
   background-image: url(../images/white_wall.png);
   text-align:center;
 }
 
 .color-blue {
   color: #327bb8;
+}
+.color-white {
+  color: #FFFFFF;
 }
 .jumbotron p {
   margin-bottom: 0px;
