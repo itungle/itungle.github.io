@@ -1,6 +1,6 @@
-function simulateTyping(statement, element) {
+// function simulateTyping(statement, element) {
 
-}
+// }
 
 
 
@@ -14,4 +14,7 @@ $('document').ready(function(){
   // console.log(welcomeBoxWidth);
   // console.log(socialIconBoxWidth);
   // $(".social-icons-box").css('width', socialIconBoxWidth);
+  var date = new Date();
+  var copyright = "Made by Tung Le &copy; " + date.getFullYear();
+  $("#copyright").html(copyright);
 });

@@ -44,6 +44,9 @@ body {
 .top-buffer {
   margin-top: 30px;
 }
+.left-buffer {
+  margin-left: 30px;
+}
 .span-heading {
   font-size: 24px;
   font-weight: bold;
@@ -75,17 +78,17 @@ body {
   -webkit-justify-content : center;
   justify-content : center;
 }
-.center-with-space-around {
+.center-with-space-between {
   -webkit-box-align : center;
   -webkit-align-items : center;
   -moz-box-align : center;
   -ms-flex-align : center;
   align-items : center;
-  -webkit-box-pack : space-between;
-  -moz-box-pack : space-between;
-  -ms-flex-pack : space-between;
-  -webkit-justify-content : space-between;
-  justify-content : space-between;
+  -webkit-box-pack : space-around;
+  -moz-box-pack : space-around;
+  -ms-flex-pack : space-around;
+  -webkit-justify-content : space-around;
+  justify-content : space-around;
   flex-wrap: wrap;
 }
 

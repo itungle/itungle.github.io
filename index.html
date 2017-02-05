@@ -8,11 +8,9 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/font-awesome-4.7.0/css/font-awesome.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/layout.css"/>
   </head>
-
-  <body>
+<body>
     <div class="home-navigation color-blue">
       <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -30,7 +28,7 @@
           <div id="home-nav-li" class="color-blue collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#about-page">ABOUT</a></li>
-              <!-- <li><a href="#projects-page">PROJECTS</a></li> -->
+              <li><a href="#projects-page">PROJECTS</a></li>
               <!--<li><a href="#">Resume</a></li>-->
               <li><a href="#contact">CONTACT</a></li>
             </ul>
@@ -49,16 +47,22 @@
           <div class="jumbotron text-center social-icons-box">
             <!-- <textarea name="typingArea" rows="1" cols="40"></textarea> -->
             <div class="row">
-              <div class="col-xs-6">
+              <div class="col-xs-4">
                 <a href="https://www.github.com/itungle" class="undecorated-link" target="_blank">
                     <i class="fa fa-github fa-3x"></i>
                     <p class="icon-label">Github</p>
                 </a>
               </div>
-              <div class="col-xs-6">
+              <div class="col-xs-4">
                 <a href="https://www.linkedin.com/in/tung-le-5b8704119" class="undecorated-link" target="_blank">
                     <i class="fa fa-linkedin fa-3x"></i>
                     <p class="icon-label">LinkedIn</p>
+                </a>
+              </div>
+              <div class="col-xs-4">
+                <a href="https://drive.google.com/open?id=0B0hsHms-i3J1OHZxQ1pEWXdpNDQ" class="undecorated-link" target="_blank">
+                    <i class="fa fa-file fa-3x"></i>
+                    <p class="icon-label">Resume</p>
                 </a>
               </div>
             </div>
@@ -75,7 +79,7 @@
           </div>
           <div class="row vertical-padding">
             <div class="col-sm-5 flex-col-container text-left">
-              <img alt="self_image" class="inner-circle" src="assets/images/self_image2.jpg" style="align-self:center"/>
+              <img alt="self_image" class="inner-circle" src="assets/images/self_image.jpg" style="align-self:center"/>
               <div class="row text-center">
                 <div class="col-xs-6">
                   <div class="text-right">
@@ -144,24 +148,24 @@
       <div class="container">
       	<div class="content-margin color-white">
         	<h1>Projects</h1>
-        	<div class="flex-row-container row center-with-space-around">
-        		<div class="col-md-6 project-box">
+        	<div class="flex-row-container row center-with-space-between">
+        		<div class="col-md-6 project-box top-buffer">
         			<span class="pink-border-bottom span-heading">Image Scraper</span>
         			<h4>Languages & Tools: Java, Jsoup, MySQL</h4>
-        			<h4>Description: Scraped image url from website and stored the links into database
+        			<h4>Description: Scraped image url from website and stored the url into database.
         			</h4>
         		</div>
-        		<div class="col-md-6 project-box">
+        		<div class="col-md-6 project-box top-buffer">
         			<span class="pink-border-bottom span-heading">Check In System</span>
         			<h4>Languages & Tools: Java, Android Studio</h4>
-        			<h4>Description: An Android application that lets user log in and check into a queue using high </h4>
+        			<h4>Description: An Android application that lets user log in and check into a queue using high frequency to transmit 8 bits data</h4>
         		</div>
         	</div>
-        	<div class="flex-row-container row center-with-space-around top-buffer">
-        		<div class="col-md-6 text-center project-box">
+        	<div class="flex-row-container row center-with-space-between">
+        		<div class="col-md-6 project-box top-buffer">
         			<span class="pink-border-bottom span-heading">DVD Rental Web Application </span>
         			<h4>Languages & Tools: Java, Java Servlet, MySQL, HTML</h4>
-        			<h4>Description: A web application for DVD retailer that lets user  </h4>
+        			<h4>Description: A web application for DVD retailer that lets users browse for dvd selection and purchase dvd</h4>
         		</div>
         		
         	</div>	
@@ -169,19 +173,21 @@
         </div>
       </div>
     </section>
-
     <section class="light-page" id="contact">
       <div class="container">
         <div class="content-margin">
-          
           <h3>Got Questions? Feel free to send me an email. </h3>
           <h2>My email is: itungle@gmail.com</h2>
         </div>
       </div>
     </section>
+    <footer>
+    	<span id="copyright" class="pink-border-bottom"></span>
+    </footer>
 
     <script type="text/javascript" src="assets/scripts/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"> </script>
     <script type="text/javascript" src="assets/scripts/index.js"></script>
   </body>
+
 </html>
