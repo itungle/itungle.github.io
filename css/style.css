@@ -126,3 +126,8 @@ textarea {
 .pink-border-bottom {
   border-bottom: 1px solid #e9b2db;
 }
+footer {
+  background-color: #1e1b18;
+  text-align: center;
+  color: #fffaff;
+}
